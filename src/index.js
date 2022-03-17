@@ -2,13 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './scss/app.scss';
 import App from './App';
+import {Provider} from "react-redux";
+
+import store from "./redux/store";
+
 
 import {BrowserRouter as Routes,Route} from 'react-router-dom'
 
+
+
+
+console.log(store)
 ReactDOM.render(
   <React.StrictMode>
     <Routes>
-        <App/>
+        <Provider store={store
+        }>
+            <App/>
+        </Provider>
+
     </Routes>
 
 
