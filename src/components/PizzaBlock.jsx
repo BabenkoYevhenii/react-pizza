@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import classNames from "classnames";
 import PropTypes from 'prop-types'
 
@@ -77,10 +77,10 @@ PizzaBlock.propTypes = {
 
 
 }
-PizzaBlock.defaultProps={
-    name:"---",
-    price:0,
-    sizes:[],
-   types:[],
+PizzaBlock.defaultProps = {
+    name: "---",
+    price: 0,
+    sizes: [],
+    types: [],
 }
 export default PizzaBlock;

@@ -7,12 +7,12 @@ import {Provider} from "react-redux";
 import store from "./redux/store";
 
 
-import {BrowserRouter as Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Routes} from 'react-router-dom'
 
 
 
 
-console.log(store)
+
 ReactDOM.render(
   <React.StrictMode>
     <Routes>
